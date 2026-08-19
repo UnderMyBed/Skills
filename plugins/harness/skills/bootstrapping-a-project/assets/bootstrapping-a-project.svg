@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Bootstrapping a project: six steps before the first feature</title>
+  <desc id="desc">A six-step sequence run before writing feature code. Set a scale gate, survey prior art, write a spec ending in verification, install the harness, build a walking skeleton a human can exercise, and hold back acceptance criteria the builder cannot see.</desc>
+  <style>.sans{font-family:Helvetica,Arial,sans-serif}.mono{font-family:Menlo,Consolas,monospace}</style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+  <text class="sans" x="120" y="112" font-size="22" font-weight="700" letter-spacing="2.4" fill="#42647a">BOOTSTRAPPING A PROJECT</text>
+  <text class="sans" x="1480" y="112" text-anchor="end" font-size="22" fill="#51514d">BEFORE THE FIRST REAL CODE</text>
+  <line x1="120" y1="146" x2="1480" y2="146" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="278" font-size="76" font-weight="700" fill="#181816">Lay the ground</text>
+  <text class="sans" x="120" y="370" font-size="76" font-weight="700" fill="#181816">before the building.</text>
+  <text class="sans" x="120" y="488" font-size="30" fill="#51514d">Project zero is the worst regime an agent works in: every frontier agent saturates</text>
+  <text class="sans" x="120" y="532" font-size="30" fill="#51514d">the tests it can see, and the gap to held-out criteria widens as the codebase grows.</text>
+  <text class="sans" x="120" y="646" font-size="22" font-weight="700" letter-spacing="1.6" fill="#42647a">THE MECHANISM</text>
+  <line x1="120" y1="672" x2="1480" y2="672" stroke="#181816" stroke-width="3"/>
+  <text class="mono" x="120" y="740" font-size="26" font-weight="700" fill="#42647a">1</text>
+  <text class="mono" x="176" y="740" font-size="27" font-weight="700" fill="#181816">SCALE GATE</text>
+  <text class="sans" x="640" y="740" font-size="26" fill="#51514d">Throwaway, small, or real — this sets how much ceremony follows.</text>
+  <text class="sans" x="640" y="776" font-size="26" fill="#51514d">A new project is architectural: there is no existing flow to read.</text>
+  <line x1="120" y1="818" x2="1480" y2="818" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="856" font-size="26" font-weight="700" fill="#42647a">2</text>
+  <text class="mono" x="176" y="856" font-size="27" font-weight="700" fill="#181816">PRIOR ART</text>
+  <text class="sans" x="640" y="856" font-size="26" fill="#51514d">Survey what exists before choosing a stack. It is the decision</text>
+  <text class="sans" x="640" y="892" font-size="26" fill="#51514d">everything else is downstream of, and the costliest to revisit.</text>
+  <line x1="120" y1="934" x2="1480" y2="934" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="972" font-size="26" font-weight="700" fill="#42647a">3</text>
+  <text class="mono" x="176" y="972" font-size="27" font-weight="700" fill="#181816">SPEC</text>
+  <text class="sans" x="640" y="972" font-size="26" fill="#51514d">Interview, then write it. Name the files, the interfaces, what is</text>
+  <text class="sans" x="640" y="1008" font-size="26" fill="#51514d">out of scope, and end with an end-to-end verification step.</text>
+  <line x1="120" y1="1050" x2="1480" y2="1050" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1088" font-size="26" font-weight="700" fill="#42647a">4</text>
+  <text class="mono" x="176" y="1088" font-size="27" font-weight="700" fill="#181816">HARNESS</text>
+  <text class="sans" x="640" y="1088" font-size="26" fill="#51514d">Toolchain pin, one gate command, CI, and bypasses closed —</text>
+  <text class="sans" x="640" y="1124" font-size="26" fill="#51514d">all before the first feature, not after.</text>
+  <line x1="120" y1="1166" x2="1480" y2="1166" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1204" font-size="26" font-weight="700" fill="#42647a">5</text>
+  <text class="mono" x="176" y="1204" font-size="27" font-weight="700" fill="#181816">SKELETON</text>
+  <text class="sans" x="640" y="1204" font-size="26" fill="#51514d">One end-to-end path a HUMAN can exercise. Green before fan-out.</text>
+  <text class="sans" x="640" y="1240" font-size="26" fill="#51514d">The agent cannot dogfood the code it writes.</text>
+  <line x1="120" y1="1282" x2="1480" y2="1282" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1320" font-size="26" font-weight="700" fill="#42647a">6</text>
+  <text class="mono" x="176" y="1320" font-size="27" font-weight="700" fill="#181816">HOLD BACK</text>
+  <text class="sans" x="640" y="1320" font-size="26" fill="#51514d">Reserve acceptance criteria the builder cannot see, and verify</text>
+  <text class="sans" x="640" y="1356" font-size="26" fill="#51514d">against those before calling anything done.</text>
+  <rect x="120" y="1648" width="1360" height="148" fill="#eef2f4"/>
+  <rect x="120" y="1648" width="5" height="148" fill="#42647a"/>
+  <text class="sans" x="160" y="1696" font-size="25" fill="#334551">Measured: the validation-to-held-out gap grows about 28 points per</text>
+  <text class="sans" x="160" y="1734" font-size="25" fill="#334551">tenfold increase in code size, and more search makes it worse.</text>
+  <text class="sans" x="160" y="1772" font-size="25" fill="#334551">Greenfield is that regime by construction. (arXiv:2605.21384)</text>
+  <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1926" font-size="24" fill="#51514d">Claude Code skill</text>
+  <text class="mono" x="1480" y="1926" font-size="24" fill="#42647a" text-anchor="end">harness@Skills</text>
+</svg>
