@@ -1,0 +1,9 @@
+{
+  "name": "conductor",
+  "description": "Coordinate a fleet of subagents — delegate owned units, review by blast radius, trace seams, and integrate. Includes a standing enthusiast/critic pair and the autonomous long-build family.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matt Shipman",
+    "email": "mattshipman85@gmail.com"
+  }
+}

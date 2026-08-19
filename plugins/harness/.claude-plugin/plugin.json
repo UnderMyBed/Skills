@@ -1,0 +1,9 @@
+{
+  "name": "harness",
+  "description": "Establish and maintain the setup an agent needs to work well in a repo — memory that holds, standing authorization, gates, and the session lifecycle. Bootstrap it on day zero, keep it true while you work, repair it when you come back.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matt Shipman",
+    "email": "mattshipman85@gmail.com"
+  }
+}

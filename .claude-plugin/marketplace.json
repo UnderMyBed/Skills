@@ -1,0 +1,71 @@
+{
+  "name": "Skills",
+  "owner": {
+    "name": "Matt Shipman",
+    "email": "mattshipman85@gmail.com"
+  },
+  "description": "Claude Code skills for multi-agent builds, prompt engineering, research, plugin maintenance, and memory visualization",
+  "version": "1.1.0",
+  "plugins": [
+    {
+      "name": "harness",
+      "source": "./plugins/harness",
+      "description": "Establish and maintain the setup an agent needs to work well in a repo \u2014 memory that holds, standing authorization, gates, and the session lifecycle. Bootstrap it on day zero, keep it true while you work, repair it when you come back.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Shipman",
+        "email": "mattshipman85@gmail.com"
+      }
+    },
+    {
+      "name": "conductor",
+      "source": "./plugins/conductor",
+      "description": "Coordinate a fleet of subagents \u2014 delegate owned units, review by blast radius, trace seams, and integrate. Includes a standing enthusiast/critic pair and the autonomous long-build family.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Shipman",
+        "email": "mattshipman85@gmail.com"
+      }
+    },
+    {
+      "name": "misc",
+      "source": "./plugins/misc",
+      "description": "Process skills for prior-art research, terminology, copy, and technical communication; includes the specialized greenfield prototype ancestor of coordinate-agents",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Shipman",
+        "email": "mattshipman85@gmail.com"
+      }
+    },
+    {
+      "name": "prompt-tuning",
+      "source": "./plugins/prompt-tuning",
+      "description": "Skills for optimizing LLM prompts across multiple axes \u2014 cache hit rate, latency, cost, structure",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Shipman",
+        "email": "mattshipman85@gmail.com"
+      }
+    },
+    {
+      "name": "plugin-ops",
+      "source": "./plugins/plugin-ops",
+      "description": "Skills for maintaining Claude Code plugins \u2014 refreshing skill content against current evidence, validating manifests, auditing for stale claims and origin leaks before publishing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Shipman",
+        "email": "mattshipman85@gmail.com"
+      }
+    },
+    {
+      "name": "memory-mood",
+      "source": "./plugins/memory-mood",
+      "description": "Visualize the emotional arc of an AI assistant's accumulating memory \u2014 replay selected cumulative snapshots in formation order and chart the resulting model readings",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Shipman",
+        "email": "mattshipman85@gmail.com"
+      }
+    }
+  ]
+}

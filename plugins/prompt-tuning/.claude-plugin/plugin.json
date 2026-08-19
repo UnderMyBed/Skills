@@ -1,0 +1,9 @@
+{
+  "name": "prompt-tuning",
+  "description": "Skills for optimizing LLM prompts across multiple axes — cache hit rate, latency, cost, structure",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matt Shipman",
+    "email": "mattshipman85@gmail.com"
+  }
+}

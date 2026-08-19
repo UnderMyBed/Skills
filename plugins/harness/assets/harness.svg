@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Harness skill index: three skills over one shared definition</title>
+  <desc id="desc">A directory index with Skill, Use When, and Output columns. Bootstrapping a Project installs the setup into an empty repo, Curating Project Memory keeps it true while you work, and Uplifting Agentic Setup diffs and repairs it on return. All three read one shared definition of a well-formed agentic repo.</desc>
+  <style>
+    .sans { font-family: Helvetica, Arial, sans-serif; }
+    .mono { font-family: Menlo, Consolas, monospace; }
+  </style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+
+  <text class="sans" x="120" y="218" font-size="88" font-weight="700" fill="#181816">HARNESS</text>
+  <text class="sans" x="120" y="286" font-size="38" fill="#51514d">Skill index</text>
+  <text class="sans" x="1480" y="286" text-anchor="end" font-size="38" fill="#51514d">3 skills</text>
+
+  <line x1="120" y1="332" x2="1480" y2="332" stroke="#181816" stroke-width="3"/>
+  <text class="sans" x="120" y="376" font-size="22" font-weight="700" letter-spacing="1.6" fill="#42647a">ONE DEFINITION, THREE ENTRY POINTS</text>
+
+  <g transform="translate(120 440)">
+    <text class="sans" x="0" y="0" font-size="28" fill="#51514d">All three read the same checklist of what a well-formed agentic repo has —</text>
+    <text class="sans" x="0" y="44" font-size="28" fill="#51514d">memory that holds, standing authorization, gates, and the session lifecycle.</text>
+    <text class="mono" x="0" y="94" font-size="24" fill="#42647a">references/well-formed-repo.md</text>
+  </g>
+
+  <g transform="translate(120 700)">
+    <text class="sans" x="0" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">SKILL</text>
+    <text class="sans" x="440" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">USE WHEN</text>
+    <text class="sans" x="1050" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">OUTPUT</text>
+    <line x1="0" y1="34" x2="1360" y2="34" stroke="#181816" stroke-width="3"/>
+
+    <g transform="translate(0 110)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">bootstrapping-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">a-project</text>
+      <text class="sans" x="0" y="86" font-size="24" fill="#42647a">day zero</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">Starting a new project or</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">rebuild, before the first real</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">code. The repo is empty and</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">there is nothing to read yet.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">Scale gate, prior art,</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">spec, working gates,</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">a walking skeleton,</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">held-back criteria</text>
+      <line x1="0" y1="250" x2="1360" y2="250" stroke="#d1d0ca" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(0 470)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">curating-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">project-memory</text>
+      <text class="sans" x="0" y="86" font-size="24" fill="#42647a">while you work</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">The same correction keeps</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">recurring, or a rule that was</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">written down is being</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">violated anyway.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">The contradicting</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">instruction deleted,</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">the rule written,</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">and a gate behind it</text>
+      <line x1="0" y1="250" x2="1360" y2="250" stroke="#d1d0ca" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(0 830)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">uplifting-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">agentic-setup</text>
+      <text class="sans" x="0" y="86" font-size="24" fill="#42647a">on return</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">Coming back to a repo idle</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">for weeks or months, or one</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">whose setup has fallen behind</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">the repos you work in daily.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">A repaired repo, not</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">an audit report —</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">each fix verified in</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">the session that made it</text>
+    </g>
+  </g>
+
+  <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1926" font-size="24" fill="#51514d">Open every skill whose USE WHEN matches the current task</text>
+  <text class="mono" x="1480" y="1926" font-size="24" fill="#42647a" text-anchor="end">harness@Skills</text>
+</svg>

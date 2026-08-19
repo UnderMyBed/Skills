@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Conductor skill index: two skills and five delegable subagents</title>
+  <desc id="desc">A directory index with Skill, Use When, and Output columns. Coordinate Agents manages parallel owned work and integration; Fan and Critic adds two standing opposed reviewers to repeated changes.</desc>
+  <style>
+    .sans { font-family: Helvetica, Arial, sans-serif; }
+    .mono { font-family: Menlo, Consolas, monospace; }
+  </style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+  <text class="sans" x="120" y="218" font-size="88" font-weight="700" fill="#181816">CONDUCTOR</text>
+  <text class="sans" x="120" y="286" font-size="38" fill="#51514d">Skill index</text>
+  <text class="sans" x="1480" y="286" text-anchor="end" font-size="38" fill="#51514d">2 skills · 5 agents</text>
+  <line x1="120" y1="332" x2="1480" y2="332" stroke="#181816" stroke-width="3"/>
+  <text class="sans" x="120" y="376" font-size="22" font-weight="700" letter-spacing="1.6" fill="#42647a">DELEGATE, REVIEW, INTEGRATE</text>
+  <g transform="translate(120 440)">
+    <text class="sans" x="0" y="0" font-size="28" fill="#51514d">Split work across subagents you coordinate as the lead. Five ready-to-delegate</text>
+    <text class="sans" x="0" y="44" font-size="28" fill="#51514d">subagents ship alongside: implementer, correctness-reviewer, integration-gap-auditor,</text>
+    <text class="sans" x="0" y="88" font-size="28" fill="#51514d">scout, and design-steward.</text>
+  </g>
+  <g transform="translate(120 700)">
+    <text class="sans" x="0" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">SKILL</text>
+    <text class="sans" x="440" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">USE WHEN</text>
+    <text class="sans" x="1050" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">OUTPUT</text>
+    <line x1="0" y1="34" x2="1360" y2="34" stroke="#181816" stroke-width="3"/>
+    <g transform="translate(0 110)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">coordinate-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">agents</text>
+      <text class="sans" x="0" y="124" font-size="24" fill="#42647a">the lead&#x27;s loop</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">A task is large enough to</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">split across multiple subagents</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">you coordinate as the lead,</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">rather than doing it all</text>
+      <text class="sans" x="440" y="160" font-size="27" fill="#181816">yourself in one context.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">Scoped briefs, a plan</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">gate before code,</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">review matched to</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">blast radius, and an</text>
+      <text class="sans" x="1050" y="152" font-size="24" fill="#51514d">integration seam trace</text>
+      <line x1="0" y1="250" x2="1360" y2="250" stroke="#d1d0ca" stroke-width="2"/>
+    </g>
+    <g transform="translate(0 520)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">fan-and-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">critic</text>
+      <text class="sans" x="0" y="124" font-size="24" fill="#42647a">standing outside eyes</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">A long autonomous build has</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">little per-change feedback</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">and you want grounded</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">outside eyes on each change.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">Two opposed standing</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">reviewers — one</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">enthusiast, one harsh</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">critic — reporting one</text>
+      <text class="sans" x="1050" y="152" font-size="24" fill="#51514d">line each to the lead</text>
+    </g>
+  </g>
+  <g transform="translate(120 1580)">
+    <line x1="0" y1="-46" x2="1360" y2="-46" stroke="#181816" stroke-width="3"/>
+    <text class="sans" x="0" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">DELEGABLE SUBAGENTS</text>
+    <text class="mono" x="0" y="48" font-size="24" font-weight="700" fill="#181816">implementer</text>
+    <text class="sans" x="440" y="48" font-size="24" fill="#51514d">builds one owned unit end to end</text>
+    <text class="mono" x="0" y="94" font-size="24" font-weight="700" fill="#181816">correctness-reviewer</text>
+    <text class="sans" x="440" y="94" font-size="24" fill="#51514d">adversarial pre-merge check</text>
+    <text class="mono" x="0" y="140" font-size="24" font-weight="700" fill="#181816">integration-gap-auditor</text>
+    <text class="sans" x="440" y="140" font-size="24" fill="#51514d">is it actually wired up?</text>
+    <text class="mono" x="0" y="186" font-size="24" font-weight="700" fill="#181816">scout</text>
+    <text class="sans" x="440" y="186" font-size="24" fill="#51514d">investigates before a decision</text>
+    <text class="mono" x="0" y="232" font-size="24" font-weight="700" fill="#181816">design-steward</text>
+    <text class="sans" x="440" y="232" font-size="24" fill="#51514d">visual and verbal cohesion</text>
+  </g>
+
+  <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1926" font-size="24" fill="#51514d">Open every skill whose USE WHEN matches the current task</text>
+  <text class="mono" x="1480" y="1926" font-size="24" fill="#42647a" text-anchor="end">conductor@Skills</text>
+</svg>

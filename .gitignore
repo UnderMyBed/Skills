@@ -1,0 +1,16 @@
+.DS_Store
+*.local.md
+*.local.json
+.claude/settings.local.json
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Claude Code local worktrees (transient)
+.claude/worktrees/
+
+# Working docs — specs, plans, handoffs. Durable record lives elsewhere;
+# these are session scratch and are deleted when the work lands.
+docs/superpowers/
+.superpowers/

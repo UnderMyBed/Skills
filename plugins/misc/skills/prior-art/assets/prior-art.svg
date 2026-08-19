@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Prior-art discovery workflow</title>
+  <desc id="desc">Start with a proposed custom design and its underlying need. Choose the search scope, brainstorm the known landscape, then scale effort to settledness: verify one obvious official solution, or run parallel evidence searches for an unsettled category. Compare weighted must-have fit and disqualifying gaps, then adopt, adapt, or build custom.</desc>
+  <style>.sans{font-family:Helvetica,Arial,sans-serif}.mono{font-family:Menlo,Consolas,monospace}</style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+  <text class="sans" x="120" y="112" font-size="22" font-weight="700" letter-spacing="2.4" fill="#42647a">PRIOR-ART DISCOVERY</text>
+  <text class="sans" x="1480" y="112" text-anchor="end" font-size="22" fill="#51514d">BEFORE A CUSTOM DESIGN</text>
+  <line x1="120" y1="146" x2="1480" y2="146" stroke="#d1d0ca" stroke-width="2"/>
+
+  <text class="sans" x="120" y="282" font-size="82" font-weight="700" fill="#181816">Map the solution space</text>
+  <text class="sans" x="120" y="376" font-size="82" font-weight="700" fill="#181816">before you build custom.</text>
+  <text class="sans" x="120" y="446" font-size="32" fill="#51514d">Input: a proposed identifier, model, algorithm, format, taxonomy, or capability.</text>
+
+  <line x1="120" y1="510" x2="1480" y2="510" stroke="#181816" stroke-width="3"/>
+  <text class="sans" x="120" y="560" font-size="23" font-weight="700" letter-spacing="2.2" fill="#42647a">1 · CHOOSE THE SEARCH SCOPE</text>
+  <text class="sans" x="120" y="610" font-size="30" font-weight="700" fill="#181816">What did the request actually name?</text>
+
+  <g class="sans">
+    <rect x="120" y="646" width="420" height="188" fill="#e8edf0"/>
+    <text x="146" y="690" font-size="22" font-weight="700" letter-spacing="1.4" fill="#42647a">ACTUAL NEED IS CLEAR</text>
+    <text x="146" y="738" font-size="29" font-weight="700" fill="#181816">Search it directly.</text>
+    <text x="146" y="782" font-size="25" fill="#51514d">Default case; do not invent</text>
+    <text x="146" y="816" font-size="25" fill="#51514d">a hidden problem.</text>
+
+    <rect x="590" y="646" width="420" height="188" fill="#e8edf0"/>
+    <text x="616" y="690" font-size="22" font-weight="700" letter-spacing="1.4" fill="#42647a">NAMED TECHNIQUE</text>
+    <text x="616" y="738" font-size="29" font-weight="700" fill="#181816">Widen one level.</text>
+    <text x="616" y="782" font-size="25" fill="#51514d">Survey the category first;</text>
+    <text x="616" y="816" font-size="25" fill="#51514d">then choose the technique.</text>
+
+    <rect x="1060" y="646" width="420" height="188" fill="#e8edf0"/>
+    <text x="1086" y="690" font-size="22" font-weight="700" letter-spacing="1.4" fill="#42647a">APPROACH ≠ ROOT NEED</text>
+    <text x="1086" y="738" font-size="29" font-weight="700" fill="#181816">Search both.</text>
+    <text x="1086" y="782" font-size="25" fill="#51514d">Lead with prior art for the</text>
+    <text x="1086" y="816" font-size="25" fill="#51514d">need that could dissolve it.</text>
+  </g>
+
+  <line x1="120" y1="888" x2="1480" y2="888" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="938" font-size="23" font-weight="700" letter-spacing="2.2" fill="#42647a">2 · BRAINSTORM, THEN SCALE THE SEARCH</text>
+  <text class="sans" x="120" y="988" font-size="29" fill="#181816">List standards bodies · canonical identifiers · libraries · established techniques · adjacent precedents.</text>
+  <text class="sans" x="120" y="1032" font-size="27" fill="#51514d">Share the inventory, then ask: is the answer already settled?</text>
+
+  <g class="sans">
+    <rect x="120" y="1068" width="620" height="164" fill="#e8edf0"/>
+    <text x="146" y="1110" font-size="22" font-weight="700" letter-spacing="1.4" fill="#42647a">ONE OBVIOUS OFFICIAL OPTION</text>
+    <text x="146" y="1152" font-size="27" font-weight="700" fill="#181816">Run a focused currency check.</text>
+    <text x="146" y="1192" font-size="24" fill="#51514d">Name · registry listing · last release · maintenance</text>
+    <text x="146" y="1220" font-size="24" fill="#51514d">Current and official → go directly to ADOPT.</text>
+
+    <rect x="780" y="1068" width="700" height="164" fill="#e8edf0"/>
+    <text x="806" y="1110" font-size="22" font-weight="700" letter-spacing="1.4" fill="#42647a">SEVERAL OR UNKNOWN CONTENDERS</text>
+    <text x="806" y="1152" font-size="27" font-weight="700" fill="#181816">Run the full parallel search.</text>
+    <text x="806" y="1192" font-size="24" fill="#51514d">Standards · libraries · prior work</text>
+    <text x="806" y="1220" font-size="24" fill="#51514d">precedents · data sources</text>
+  </g>
+
+  <line x1="120" y1="1270" x2="1480" y2="1270" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1320" font-size="23" font-weight="700" letter-spacing="2.2" fill="#42647a">3 · COMPARE THE EVIDENCE WHEN THE SPACE IS UNSETTLED</text>
+  <text class="mono" x="120" y="1370" font-size="25" fill="#181816">OPTION → WEIGHTED MUST-HAVE FIT → ACCESS → LICENSE → ADOPTION → GAPS</text>
+  <text class="sans" x="120" y="1414" font-size="25" fill="#51514d">Declare requirements + weights first; one disqualifying gap overrides the aggregate score.</text>
+
+  <line x1="120" y1="1464" x2="1480" y2="1464" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1514" font-size="23" font-weight="700" letter-spacing="2.2" fill="#42647a">4 · APPLY A DECLARED DECISION HEURISTIC</text>
+  <g class="sans">
+    <text x="120" y="1574" font-size="31" font-weight="700" fill="#42647a">ADOPT</text>
+    <text x="120" y="1614" font-size="27" fill="#181816">≥80% weighted fit</text><text x="120" y="1650" font-size="25" fill="#51514d">use directly</text>
+    <line x1="412" y1="1544" x2="412" y2="1660" stroke="#d1d0ca" stroke-width="2"/>
+    <text x="470" y="1574" font-size="31" font-weight="700" fill="#42647a">ADAPT</text>
+    <text x="470" y="1614" font-size="27" fill="#181816">50% to &lt;80%</text><text x="470" y="1650" font-size="25" fill="#51514d">extend only the gaps</text>
+    <line x1="820" y1="1544" x2="820" y2="1660" stroke="#d1d0ca" stroke-width="2"/>
+    <text x="878" y="1574" font-size="31" font-weight="700" fill="#42647a">BUILD CUSTOM</text>
+    <text x="878" y="1614" font-size="27" fill="#181816">&lt;50% or fatal gap</text><text x="878" y="1650" font-size="25" fill="#51514d">record why options failed</text>
+  </g>
+
+  <line x1="120" y1="1714" x2="1480" y2="1714" stroke="#181816" stroke-width="3"/>
+  <text class="sans" x="120" y="1764" font-size="23" font-weight="700" letter-spacing="2.2" fill="#42647a">OUTPUT + COMPLETION</text>
+  <text class="sans" x="120" y="1810" font-size="29" font-weight="700" fill="#181816">Currency check + ADOPT note, or comparison table + recommendation.</text>
+  <text class="sans" x="120" y="1850" font-size="25" fill="#51514d">Complete when the option is verified, or weights, evidence, gaps, and rejections are documented.</text>
+
+  <text class="sans" x="120" y="1946" font-size="22" fill="#51514d">prior-art</text>
+</svg>

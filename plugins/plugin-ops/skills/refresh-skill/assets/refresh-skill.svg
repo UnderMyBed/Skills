@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">The guide stayed still. The evidence moved.</title>
+  <desc id="desc">Refresh a reusable AI workflow guide after an SDK, model, or API release. Read the skill and all references, inventory and cluster time-sensitive claims, send one focused research agent per cluster, synthesize statuses and reconcile contradictions, edit from the evidence, choose PATCH, MINOR, or MAJOR by guidance impact, commit a cited change log, and reinstall locally. Complete when every claim has a status, contradictions are resolved, versions match the change, and the reinstalled skill passes.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f6f2; }
+      .primary { fill: #181816; }
+      .secondary { fill: #51514d; }
+      .accent { fill: #42647a; }
+      .rule { stroke: #d1d0ca; stroke-width: 3; }
+      .flow { stroke: #42647a; stroke-width: 4; fill: none; }
+      .headline { font: 700 88px Helvetica, Arial, sans-serif; letter-spacing: -2px; }
+      .section { font: 700 23px Helvetica, Arial, sans-serif; letter-spacing: 2px; }
+      .body { font: 400 30px Helvetica, Arial, sans-serif; }
+      .step { font: 700 31px Helvetica, Arial, sans-serif; }
+      .small { font: 400 27px Helvetica, Arial, sans-serif; }
+      .branch { font: 700 30px Helvetica, Arial, sans-serif; }
+      .meta { font: 700 22px Helvetica, Arial, sans-serif; letter-spacing: 2px; }
+      .mono { font: 700 26px Menlo, Consolas, monospace; }
+    </style>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#42647a"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="2000"/>
+  <text x="120" y="112" class="meta accent">REUSABLE AI WORKFLOW GUIDE</text>
+  <text x="1480" y="112" text-anchor="end" class="meta secondary">EVIDENCE REFRESH METHOD</text>
+  <line x1="120" y1="150" x2="1480" y2="150" class="rule"/>
+
+  <text x="120" y="275" class="headline primary">The guide stayed still.</text>
+  <text x="120" y="372" class="headline primary">The evidence moved.</text>
+  <text x="120" y="445" class="body secondary">After an SDK, model, or API release, research first; edit only after synthesis.</text>
+
+  <line x1="120" y1="500" x2="1480" y2="500" class="rule"/>
+  <text x="120" y="545" class="section accent">INPUT</text>
+  <text x="120" y="590" class="body primary">SKILL.md + every reference + the release or elapsed-time trigger</text>
+
+  <line x1="120" y1="630" x2="1480" y2="630" class="rule"/>
+  <text x="120" y="678" class="section accent">ORDERED METHOD</text>
+
+  <circle cx="150" cy="742" r="29" fill="#42647a"/>
+  <text x="150" y="752" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#f7f6f2">1</text>
+  <text x="210" y="735" class="step primary">INVENTORY AND CLUSTER THE VOLATILE CLAIMS</text>
+  <text x="210" y="775" class="small secondary">dates · versions · measurements · model names · status tags · citations</text>
+  <text x="210" y="812" class="small secondary">Group related claims so each research task has one focused subject.</text>
+  <line x1="150" y1="780" x2="150" y2="845" class="flow" marker-end="url(#arrow)"/>
+
+  <circle cx="150" cy="885" r="29" fill="#42647a"/>
+  <text x="150" y="895" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#f7f6f2">2</text>
+  <text x="210" y="878" class="step primary">SEND ONE RESEARCH AGENT PER CLUSTER</text>
+  <text x="210" y="918" class="small secondary">Run 4–6 in parallel. Give each the verbatim claim, citations, and open questions.</text>
+  <text x="210" y="955" class="small secondary">Prioritize official docs → staff statements → recent community measurements.</text>
+  <line x1="150" y1="923" x2="150" y2="990" class="flow" marker-end="url(#arrow)"/>
+
+  <circle cx="150" cy="1030" r="29" fill="#42647a"/>
+  <text x="150" y="1040" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#f7f6f2">3</text>
+  <text x="210" y="1023" class="step primary">SYNTHESIZE BEFORE EDITING</text>
+  <text x="210" y="1063" class="small secondary">confirmed · refuted · updated · no change · still unknown</text>
+  <text x="210" y="1100" class="small secondary">Reconcile contradictions; surface new open questions; select the strongest evidence.</text>
+  <line x1="150" y1="1068" x2="150" y2="1135" class="flow" marker-end="url(#arrow)"/>
+
+  <circle cx="150" cy="1175" r="29" fill="#42647a"/>
+  <text x="150" y="1185" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#f7f6f2">4</text>
+  <text x="210" y="1168" class="step primary">APPLY THE EVIDENCE; SIZE THE VERSION BY IMPACT</text>
+
+  <line x1="120" y1="1225" x2="1480" y2="1225" class="rule"/>
+  <text x="120" y="1280" class="branch primary">PATCH</text>
+  <text x="120" y="1320" class="small secondary">Citation refresh;</text>
+  <text x="120" y="1356" class="small secondary">guidance unchanged.</text>
+
+  <text x="600" y="1280" class="branch primary">MINOR</text>
+  <text x="600" y="1320" class="small secondary">Evidence refines or</text>
+  <text x="600" y="1356" class="small secondary">expands guidance.</text>
+
+  <text x="1080" y="1280" class="branch primary">MAJOR</text>
+  <text x="1080" y="1320" class="small secondary">A recommendation</text>
+  <text x="1080" y="1356" class="small secondary">was reversed.</text>
+
+  <line x1="120" y1="1400" x2="1480" y2="1400" class="rule"/>
+  <circle cx="150" cy="1460" r="29" fill="#42647a"/>
+  <text x="150" y="1470" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#f7f6f2">5</text>
+  <text x="210" y="1453" class="step primary">COMMIT THE EVIDENCE TRAIL; REINSTALL LOCALLY</text>
+  <text x="210" y="1493" class="small secondary">Log substantive changes and source URLs; update both version manifests.</text>
+  <text x="210" y="1530" class="small secondary">Update or reinstall the plugin, reload it, and verify the refreshed guidance.</text>
+
+  <line x1="120" y1="1580" x2="1480" y2="1580" class="rule"/>
+  <text x="120" y="1630" class="section accent">OUTPUT</text>
+  <text x="120" y="1675" class="step primary">UPDATED SKILL + REFERENCES + CITED CHANGE LOG + VERSION BUMP</text>
+
+  <text x="120" y="1740" class="section accent">COMPLETE WHEN</text>
+  <text x="120" y="1785" class="small primary">every volatile claim has a status · contradictions are resolved · semver matches impact</text>
+  <text x="120" y="1822" class="small primary">the locally reinstalled skill passes verification</text>
+
+  <line x1="120" y1="1880" x2="1480" y2="1880" class="rule"/>
+  <text x="120" y="1935" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#51514d">refresh-skill</text>
+  <text x="1480" y="1935" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#51514d">Evidence-led maintenance for reusable AI instructions</text>
+</svg>

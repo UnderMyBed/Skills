@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Use an enthusiast fan and a harsh critic as opposed standing reviewers</title>
+  <desc id="desc">A reviewable change is sent to two calibrated reviewers. The critic records what is weak while the fan records what genuinely lands. The lead reads both files at feature boundaries, acts on convergence, and decides what to fix or protect when the two perspectives diverge.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#51514d"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#181816">
+    <text x="120" y="102" font-size="24" font-weight="700" letter-spacing="2.2" fill="#42647a">LONG AUTONOMOUS BUILD · STANDING REVIEW</text>
+    <text x="1480" y="102" text-anchor="end" font-size="24" font-weight="700" letter-spacing="1.5" fill="#51514d">FAN + CRITIC</text>
+    <line x1="120" y1="142" x2="1480" y2="142" stroke="#d1d0ca" stroke-width="3"/>
+
+    <text x="120" y="250" font-size="86" font-weight="700">The critic finds what is weak.</text>
+    <text x="120" y="350" font-size="86" font-weight="700">The fan finds what to protect.</text>
+    <text x="120" y="418" font-size="34" fill="#51514d">Opposed reviewers expose the spread that one neutral opinion hides.</text>
+
+    <line x1="120" y1="478" x2="1480" y2="478" stroke="#d1d0ca" stroke-width="3"/>
+
+    <text x="120" y="538" font-size="24" font-weight="700" letter-spacing="2" fill="#42647a">INPUT · ONE REVIEWABLE CHANGE</text>
+    <text x="120" y="600" font-size="42" font-weight="700">Screenshot, copy, schema, or plan</text>
+    <text x="120" y="646" font-size="30" fill="#51514d">Send the same artifact, change summary, focus, and project rules to both.</text>
+
+    <line x1="800" y1="680" x2="440" y2="762" stroke="#51514d" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="800" y1="680" x2="1160" y2="762" stroke="#51514d" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <line x1="120" y1="802" x2="760" y2="802" stroke="#a14332" stroke-width="6"/>
+    <text x="120" y="854" font-size="24" font-weight="700" letter-spacing="2" fill="#a14332">HARSH CRITIC</text>
+    <text x="120" y="914" font-size="42" font-weight="700">What is weak?</text>
+    <text x="120" y="964" font-size="30" fill="#51514d">Name specific failures and consequences.</text>
+    <text x="120" y="1006" font-size="30" fill="#51514d">Recommend a concrete fix.</text>
+    <text x="120" y="1064" font-size="26" font-weight="700" fill="#a14332">APPENDS TO feedback_critic.md</text>
+
+    <line x1="840" y1="802" x2="1480" y2="802" stroke="#42647a" stroke-width="6"/>
+    <text x="840" y="854" font-size="24" font-weight="700" letter-spacing="2" fill="#42647a">ENTHUSIAST FAN</text>
+    <text x="840" y="914" font-size="42" font-weight="700">What genuinely lands?</text>
+    <text x="840" y="964" font-size="30" fill="#51514d">Name the value and why it works.</text>
+    <text x="840" y="1006" font-size="30" fill="#51514d">Choose one place to double down.</text>
+    <text x="840" y="1064" font-size="26" font-weight="700" fill="#42647a">APPENDS TO feedback_fan.md</text>
+
+    <text x="800" y="1138" text-anchor="middle" font-size="28" fill="#51514d">Each replies in one line. The substance stays in separate files.</text>
+    <line x1="440" y1="1160" x2="690" y2="1214" stroke="#51514d" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="1160" y1="1160" x2="910" y2="1214" stroke="#51514d" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <line x1="120" y1="1238" x2="1480" y2="1238" stroke="#d1d0ca" stroke-width="3"/>
+    <text x="120" y="1298" font-size="24" font-weight="700" letter-spacing="2" fill="#42647a">THE LEAD READS BOTH AT A FEATURE BOUNDARY</text>
+
+    <text x="120" y="1382" font-size="28" font-weight="700" fill="#42647a">CONVERGENCE</text>
+    <text x="400" y="1382" font-size="36" font-weight="700">Both identify the same thing</text>
+    <line x1="1040" y1="1370" x2="1160" y2="1370" stroke="#51514d" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="1210" y="1382" font-size="34" font-weight="700">Act on it</text>
+
+    <line x1="120" y1="1432" x2="1480" y2="1432" stroke="#d1d0ca" stroke-width="2"/>
+
+    <text x="120" y="1504" font-size="28" font-weight="700" fill="#a14332">DIVERGENCE</text>
+    <text x="400" y="1504" font-size="34" font-weight="700">Critic: cut it</text>
+    <text x="400" y="1550" font-size="34" font-weight="700" fill="#42647a">Fan: protect it</text>
+    <line x1="780" y1="1520" x2="980" y2="1520" stroke="#51514d" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="1030" y="1504" font-size="32" font-weight="700">Inspect the artifact.</text>
+    <text x="1030" y="1550" font-size="32" font-weight="700">The lead decides.</text>
+
+    <line x1="120" y1="1606" x2="1480" y2="1606" stroke="#d1d0ca" stroke-width="3"/>
+    <text x="120" y="1666" font-size="24" font-weight="700" letter-spacing="2" fill="#42647a">OUTPUT · A WEIGHTED DECISION LOG</text>
+    <text x="120" y="1720" font-size="36" font-weight="700">FIX</text>
+    <text x="120" y="1762" font-size="29" fill="#51514d">shared weaknesses</text>
+    <text x="600" y="1720" font-size="36" font-weight="700">PROTECT</text>
+    <text x="600" y="1762" font-size="29" fill="#51514d">value that lands</text>
+    <text x="1080" y="1720" font-size="36" font-weight="700">DECIDE</text>
+    <text x="1080" y="1762" font-size="29" fill="#51514d">the splits</text>
+
+    <text x="120" y="1818" font-size="30" font-weight="700">Complete when each convergence and split has an explicit disposition.</text>
+
+    <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="3"/>
+    <text x="120" y="1932" font-size="24" fill="#51514d">fan-and-critic</text>
+    <text x="1480" y="1932" text-anchor="end" font-size="24" fill="#51514d">fan = enthusiast, not task fan-out</text>
+  </g>
+</svg>

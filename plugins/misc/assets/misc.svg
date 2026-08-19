@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Misc skill index: three cross-cutting judgment skills</title>
+  <desc id="desc">A directory index with Skill, Use When, and Output columns listing prior-art, align-terminology, and cutting-internal-leaks-from-copy by use case and output.</desc>
+  <style>
+    .sans { font-family: Helvetica, Arial, sans-serif; }
+    .mono { font-family: Menlo, Consolas, monospace; }
+  </style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+  <text class="sans" x="120" y="218" font-size="88" font-weight="700" fill="#181816">MISC</text>
+  <text class="sans" x="120" y="286" font-size="38" fill="#51514d">Skill index</text>
+  <text class="sans" x="1480" y="286" text-anchor="end" font-size="38" fill="#51514d">3 skills</text>
+  <line x1="120" y1="332" x2="1480" y2="332" stroke="#181816" stroke-width="3"/>
+  <text class="sans" x="120" y="376" font-size="22" font-weight="700" letter-spacing="1.6" fill="#42647a">JUDGMENT CALLS AROUND THE WORK</text>
+  <g transform="translate(120 440)">
+    <text class="sans" x="0" y="0" font-size="28" fill="#51514d">General-purpose skills for the decisions surrounding AI-assisted product work —</text>
+    <text class="sans" x="0" y="44" font-size="28" fill="#51514d">what to build on, what to call it, and what the reader should never see.</text>
+  </g>
+  <g transform="translate(120 700)">
+    <text class="sans" x="0" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">SKILL</text>
+    <text class="sans" x="440" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">USE WHEN</text>
+    <text class="sans" x="1050" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">OUTPUT</text>
+    <line x1="0" y1="34" x2="1360" y2="34" stroke="#181816" stroke-width="3"/>
+    <g transform="translate(0 110)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">prior-art</text>
+      <text class="sans" x="0" y="86" font-size="24" fill="#42647a">before you build</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">About to hand-roll a</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">capability, choose a library</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">or technique, or design a</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">custom identifier, schema,</text>
+      <text class="sans" x="440" y="160" font-size="27" fill="#181816">algorithm, or taxonomy.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">What already exists,</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">an adopt / adapt /</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">build call, and the</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">reason a rejected</text>
+      <text class="sans" x="1050" y="152" font-size="24" fill="#51514d">option was rejected</text>
+      <line x1="0" y1="250" x2="1360" y2="250" stroke="#d1d0ca" stroke-width="2"/>
+    </g>
+    <g transform="translate(0 470)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">align-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">terminology</text>
+      <text class="sans" x="0" y="124" font-size="24" fill="#42647a">naming</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">Reviewing or designing schema</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">field, model, or enum names,</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">or auditing names against</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">authoritative terminology.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">Each name marked</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">aligned, misnamed,</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">conflated, ambiguous,</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">or invented — with</text>
+      <text class="sans" x="1050" y="152" font-size="24" fill="#51514d">the authority cited</text>
+      <line x1="0" y1="250" x2="1360" y2="250" stroke="#d1d0ca" stroke-width="2"/>
+    </g>
+    <g transform="translate(0 830)">
+      <text class="mono" x="0" y="0" font-size="26" font-weight="700" fill="#181816">cutting-internal-</text>
+      <text class="mono" x="0" y="38" font-size="26" font-weight="700" fill="#181816">leaks-from-copy</text>
+      <text class="sans" x="0" y="124" font-size="24" fill="#42647a">before it ships</text>
+      <text class="sans" x="440" y="0" font-size="27" fill="#181816">Reviewing customer-facing</text>
+      <text class="sans" x="440" y="40" font-size="27" fill="#181816">prose an LLM produced, or a</text>
+      <text class="sans" x="440" y="80" font-size="27" fill="#181816">reader says the copy feels</text>
+      <text class="sans" x="440" y="120" font-size="27" fill="#181816">off, bloggy, or AI-written.</text>
+      <text class="sans" x="1050" y="0" font-size="24" fill="#51514d">Fourth-wall breaks,</text>
+      <text class="sans" x="1050" y="38" font-size="24" fill="#51514d">implementation jargon,</text>
+      <text class="sans" x="1050" y="76" font-size="24" fill="#51514d">and copy narrating</text>
+      <text class="sans" x="1050" y="114" font-size="24" fill="#51514d">its own device, cut</text>
+      <text class="sans" x="1050" y="152" font-size="24" fill="#51514d">rather than softened</text>
+    </g>
+  </g>
+  <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1926" font-size="24" fill="#51514d">Open every skill whose USE WHEN matches the current task</text>
+  <text class="mono" x="1480" y="1926" font-size="24" fill="#42647a" text-anchor="end">misc@Skills</text>
+</svg>

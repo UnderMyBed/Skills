@@ -1,0 +1,9 @@
+{
+  "name": "plugin-ops",
+  "description": "Skills for maintaining Claude Code plugins \u2014 refreshing skill content against current evidence, validating manifests, auditing for stale claims and origin leaks before publishing",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matt Shipman",
+    "email": "mattshipman85@gmail.com"
+  }
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt-tuning skill index</title>
+  <desc id="desc">A literal index of the prompt-tuning package's current skill, openai-prompt-cache, with its use cases, outputs, and supported API surfaces.</desc>
+  <style>
+    .sans { font-family: Helvetica, Arial, sans-serif; }
+    .mono { font-family: Menlo, Consolas, monospace; }
+  </style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+
+  <text class="mono" x="120" y="112" font-size="22" fill="#42647a">PROMPT-TUNING</text>
+  <text class="sans" x="1480" y="112" font-size="22" fill="#51514d" text-anchor="end">SKILL INDEX</text>
+  <line x1="120" y1="146" x2="1480" y2="146" stroke="#d1d0ca" stroke-width="2"/>
+
+  <g transform="translate(120 258)">
+    <text class="sans" x="0" y="0" font-size="84" font-weight="700" fill="#181816">Skill index</text>
+    <text class="sans" x="0" y="78" font-size="34" fill="#51514d">1 skill</text>
+  </g>
+
+  <g transform="translate(120 480)">
+    <text class="sans" x="0" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">SKILL</text>
+    <text class="sans" x="420" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">USE WHEN</text>
+    <text class="sans" x="1050" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#51514d">OUTPUT</text>
+    <line x1="0" y1="34" x2="1360" y2="34" stroke="#181816" stroke-width="3"/>
+
+    <text class="mono" x="0" y="116" font-size="27" font-weight="700" fill="#181816">openai-prompt-cache</text>
+    <text class="sans" x="420" y="108" font-size="28" font-weight="700" fill="#181816">Repeated OpenAI API prompts cost too much,</text>
+    <text class="sans" x="420" y="150" font-size="28" font-weight="700" fill="#181816">start slowly, or unexpectedly miss cache.</text>
+    <text class="sans" x="1050" y="106" font-size="26" fill="#181816">stable prefix layout</text>
+    <text class="sans" x="1050" y="144" font-size="26" fill="#181816">+ measured reads / writes</text>
+    <line x1="0" y1="206" x2="1360" y2="206" stroke="#181816" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(120 820)">
+    <text class="sans" x="0" y="0" font-size="23" font-weight="700" letter-spacing="1.4" fill="#42647a">SKILL COVERAGE</text>
+
+    <text class="sans" x="0" y="84" font-size="28" font-weight="700" fill="#181816">API surfaces</text>
+    <text class="sans" x="320" y="84" font-size="28" fill="#51514d">Responses API · Chat Completions</text>
+    <line x1="0" y1="124" x2="1360" y2="124" stroke="#d1d0ca" stroke-width="2"/>
+
+    <text class="sans" x="0" y="196" font-size="28" font-weight="700" fill="#181816">Prompt structures</text>
+    <text class="sans" x="320" y="196" font-size="28" fill="#51514d">tools · JSON Schema · Lark grammar · examples · RAG context</text>
+    <line x1="0" y1="236" x2="1360" y2="236" stroke="#d1d0ca" stroke-width="2"/>
+
+    <text class="sans" x="0" y="308" font-size="28" font-weight="700" fill="#181816">Diagnoses</text>
+    <text class="sans" x="320" y="308" font-size="28" fill="#51514d">early-changing bytes · unstable serialization · routing · retention</text>
+    <line x1="0" y1="348" x2="1360" y2="348" stroke="#d1d0ca" stroke-width="2"/>
+
+    <text class="sans" x="0" y="420" font-size="28" font-weight="700" fill="#181816">Verification</text>
+    <text class="mono" x="320" y="420" font-size="25" fill="#51514d">cached_tokens + cache_write_tokens</text>
+    <text class="sans" x="840" y="420" font-size="28" fill="#51514d">across repeated calls</text>
+    <line x1="0" y1="460" x2="1360" y2="460" stroke="#181816" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(120 1510)">
+    <line x1="0" y1="0" x2="1360" y2="0" stroke="#d1d0ca" stroke-width="2"/>
+    <text class="sans" x="0" y="72" font-size="30" fill="#51514d">Open the skill README for the current workflow and API-specific references.</text>
+  </g>
+
+  <g transform="translate(120 1840)">
+    <line x1="0" y1="0" x2="1360" y2="0" stroke="#d1d0ca" stroke-width="2"/>
+    <text class="sans" x="0" y="76" font-size="30" font-weight="700" fill="#181816">prompt-tuning</text>
+    <text class="mono" x="1360" y="76" font-size="22" fill="#51514d" text-anchor="end">skills/openai-prompt-cache</text>
+  </g>
+</svg>

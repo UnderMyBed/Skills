@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">PLUGIN-OPS skill index: 3 skills.</title>
+  <desc id="desc">A three-row package index with columns for skill path, use when, and output. Admitting a Skill reviews a new or edited skill before public release. Refresh Skill checks claims after external changes. Framing Skill Infographics produces a surface-specific explainer or directory-index brief and verified README asset.</desc>
+
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#181816">
+    <text x="120" y="290" font-size="88" font-weight="700" letter-spacing="-2">PLUGIN-OPS</text>
+    <text x="120" y="355" font-size="38" font-weight="700" fill="#42647a">Skill index</text>
+    <text x="1480" y="355" text-anchor="end" font-size="30" font-weight="700" fill="#51514d">3 skills</text>
+
+    <line x1="120" y1="405" x2="1480" y2="405" stroke="#d1d0ca" stroke-width="2"/>
+
+    <!-- Column bounds: SKILL [120,470], USE WHEN [520,1020], OUTPUT [1070,1480]. -->
+    <text x="120" y="470" font-size="22" font-weight="700" letter-spacing="2" fill="#42647a">SKILL</text>
+    <text x="520" y="470" font-size="22" font-weight="700" letter-spacing="2" fill="#42647a">USE WHEN</text>
+    <text x="1070" y="470" font-size="22" font-weight="700" letter-spacing="2" fill="#42647a">OUTPUT</text>
+
+    <line x1="490" y1="490" x2="490" y2="1535" stroke="#d1d0ca" stroke-width="2"/>
+    <line x1="1040" y1="490" x2="1040" y2="1535" stroke="#d1d0ca" stroke-width="2"/>
+
+    <!-- admitting-a-skill -->
+    <g>
+      <text x="120" y="585" font-family="Menlo, Consolas, monospace" font-size="28" font-weight="700">admitting-a-skill/</text>
+
+      <text x="520" y="555" font-size="28">A new or edited AI skill is</text>
+      <text x="520" y="595" font-size="28">about to enter a public</text>
+      <text x="520" y="635" font-size="28">marketplace, especially after</text>
+      <text x="520" y="675" font-size="28">a private-codebase port.</text>
+
+      <text x="1070" y="555" font-size="30" font-weight="700">Release decision</text>
+      <text x="1070" y="605" font-size="28" fill="#51514d">Machine lint + two</text>
+      <text x="1070" y="645" font-size="28" fill="#51514d">independent full reads;</text>
+      <text x="1070" y="685" font-size="28" fill="#51514d">every finding resolved.</text>
+    </g>
+
+    <line x1="120" y1="790" x2="1480" y2="790" stroke="#d1d0ca" stroke-width="2"/>
+
+    <!-- refresh-skill -->
+    <g>
+      <text x="120" y="900" font-family="Menlo, Consolas, monospace" font-size="28" font-weight="700">refresh-skill/</text>
+
+      <text x="520" y="870" font-size="28">An SDK, model, or API release</text>
+      <text x="520" y="910" font-size="28">may have made claims stale,</text>
+      <text x="520" y="950" font-size="28">or someone asks whether</text>
+      <text x="520" y="990" font-size="28">the skill is still current.</text>
+
+      <text x="1070" y="870" font-size="30" font-weight="700">Evidence + version decision</text>
+      <text x="1070" y="920" font-size="28" fill="#51514d">Confirmed, updated, refuted,</text>
+      <text x="1070" y="960" font-size="28" fill="#51514d">or unchanged; version bump</text>
+      <text x="1070" y="1000" font-size="28" fill="#51514d">sized by guidance impact.</text>
+    </g>
+
+    <line x1="120" y1="1105" x2="1480" y2="1105" stroke="#d1d0ca" stroke-width="2"/>
+
+    <!-- framing-skill-infographics -->
+    <g>
+      <text x="120" y="1215" font-family="Menlo, Consolas, monospace" font-size="28" font-weight="700">framing-skill-</text>
+      <text x="120" y="1255" font-family="Menlo, Consolas, monospace" font-size="28" font-weight="700">infographics/</text>
+
+      <text x="520" y="1185" font-size="28">A skill or directory needs an image,</text>
+      <text x="520" y="1225" font-size="28">and the explainer versus index</text>
+      <text x="520" y="1265" font-size="28">information architecture must be chosen.</text>
+
+      <text x="1070" y="1185" font-size="30" font-weight="700">Surface-specific brief</text>
+      <text x="1070" y="1235" font-size="28" fill="#51514d">Explainer trace or complete</text>
+      <text x="1070" y="1275" font-size="28" fill="#51514d">routable child index.</text>
+    </g>
+
+    <line x1="120" y1="1535" x2="1480" y2="1535" stroke="#d1d0ca" stroke-width="2"/>
+
+    <text x="120" y="1610" font-size="28" fill="#51514d">Match the current task to USE WHEN, then open that skill directory.</text>
+
+    <line x1="120" y1="1880" x2="1480" y2="1880" stroke="#d1d0ca" stroke-width="2"/>
+    <text x="120" y="1940" font-family="Menlo, Consolas, monospace" font-size="22" fill="#51514d">plugins/plugin-ops/</text>
+  </g>
+</svg>
