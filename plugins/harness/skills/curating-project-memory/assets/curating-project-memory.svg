@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Curating project memory: delete the contradicting instruction first</title>
+  <desc id="desc">A five-step promotion procedure. Search for the instruction that made the old behaviour correct, delete it, write the rule positively, add a mechanical gate, and commit all of it together. Measured evidence shows curated skills beat a no-skills baseline while self-generated ones fall below it.</desc>
+  <style>.sans{font-family:Helvetica,Arial,sans-serif}.mono{font-family:Menlo,Consolas,monospace}</style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+  <text class="sans" x="120" y="112" font-size="22" font-weight="700" letter-spacing="2.4" fill="#42647a">CURATING PROJECT MEMORY</text>
+  <text class="sans" x="1480" y="112" text-anchor="end" font-size="22" fill="#51514d">WHEN A RULE KEEPS BEING BROKEN</text>
+  <line x1="120" y1="146" x2="1480" y2="146" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="278" font-size="76" font-weight="700" fill="#181816">Delete the instruction</text>
+  <text class="sans" x="120" y="370" font-size="76" font-weight="700" fill="#181816">before you write the rule.</text>
+  <text class="sans" x="120" y="488" font-size="30" fill="#51514d">A rule that keeps being violated is usually not drift. Something in the repo still</text>
+  <text class="sans" x="120" y="532" font-size="30" fill="#51514d">instructs the old behaviour, and every violation was correct obedience to it.</text>
+  <text class="sans" x="120" y="646" font-size="22" font-weight="700" letter-spacing="1.6" fill="#42647a">THE MECHANISM</text>
+  <line x1="120" y1="672" x2="1480" y2="672" stroke="#181816" stroke-width="3"/>
+  <text class="mono" x="120" y="740" font-size="26" font-weight="700" fill="#42647a">1</text>
+  <text class="mono" x="176" y="740" font-size="27" font-weight="700" fill="#181816">SEARCH</text>
+  <text class="sans" x="640" y="740" font-size="26" fill="#51514d">Find the instruction that made the old behaviour correct —</text>
+  <text class="sans" x="640" y="776" font-size="26" fill="#51514d">memory files, README, doc index, templates, contributing guide.</text>
+  <line x1="120" y1="818" x2="1480" y2="818" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="856" font-size="26" font-weight="700" fill="#42647a">2</text>
+  <text class="mono" x="176" y="856" font-size="27" font-weight="700" fill="#181816">DELETE</text>
+  <text class="sans" x="640" y="856" font-size="26" fill="#51514d">Remove it. Adding a rule beside a contradiction creates a conflict,</text>
+  <text class="sans" x="640" y="892" font-size="26" fill="#51514d">and conflict is what actually degrades compliance.</text>
+  <line x1="120" y1="934" x2="1480" y2="934" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="972" font-size="26" font-weight="700" fill="#42647a">3</text>
+  <text class="mono" x="176" y="972" font-size="27" font-weight="700" fill="#181816">WRITE</text>
+  <text class="sans" x="640" y="972" font-size="26" fill="#51514d">State what the output IS, positively. Prohibitions measurably</text>
+  <text class="sans" x="640" y="1008" font-size="26" fill="#51514d">produce more of the unwanted behaviour than a positive recipe.</text>
+  <line x1="120" y1="1050" x2="1480" y2="1050" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1088" font-size="26" font-weight="700" fill="#42647a">4</text>
+  <text class="mono" x="176" y="1088" font-size="27" font-weight="700" fill="#181816">GATE</text>
+  <text class="sans" x="640" y="1088" font-size="26" fill="#51514d">Put a mechanical check behind it. A rule without one lasts until</text>
+  <text class="sans" x="640" y="1124" font-size="26" fill="#51514d">the next person reads the thing you forgot to delete.</text>
+  <line x1="120" y1="1166" x2="1480" y2="1166" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1204" font-size="26" font-weight="700" fill="#42647a">5</text>
+  <text class="mono" x="176" y="1204" font-size="27" font-weight="700" fill="#181816">COMMIT</text>
+  <text class="sans" x="640" y="1204" font-size="26" fill="#51514d">All of it together, so the rule and the deletion cannot drift apart.</text>
+  <rect x="120" y="1648" width="1360" height="148" fill="#eef2f4"/>
+  <rect x="120" y="1648" width="5" height="148" fill="#42647a"/>
+  <text class="sans" x="160" y="1696" font-size="25" fill="#334551">Measured: curated skills score +16.6 points over no skills at all —</text>
+  <text class="sans" x="160" y="1734" font-size="25" fill="#334551">but self-generated ones score 8 to 11 points BELOW that baseline.</text>
+  <text class="sans" x="160" y="1772" font-size="25" fill="#334551">Capture cheaply. Gate promotion. (arXiv:2602.12670)</text>
+  <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1926" font-size="24" fill="#51514d">Claude Code skill</text>
+  <text class="mono" x="1480" y="1926" font-size="24" fill="#42647a" text-anchor="end">harness@Skills</text>
+</svg>

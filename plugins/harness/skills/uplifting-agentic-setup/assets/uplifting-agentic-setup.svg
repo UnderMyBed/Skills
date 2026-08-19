@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">Uplifting an agentic setup: detect, assess, delta, repair, verify</title>
+  <desc id="desc">A five-step repair procedure for a repo left idle. Detect current state, assess it against ten dimensions of a well-formed agentic repo, check what tooling has shipped since, repair in order of what costs turns, and verify each fix in the session that made it.</desc>
+  <style>.sans{font-family:Helvetica,Arial,sans-serif}.mono{font-family:Menlo,Consolas,monospace}</style>
+  <rect width="1600" height="2000" fill="#f7f6f2"/>
+  <text class="sans" x="120" y="112" font-size="22" font-weight="700" letter-spacing="2.4" fill="#42647a">UPLIFTING AGENTIC SETUP</text>
+  <text class="sans" x="1480" y="112" text-anchor="end" font-size="22" fill="#51514d">RETURNING TO A COLD REPO</text>
+  <line x1="120" y1="146" x2="1480" y2="146" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="278" font-size="76" font-weight="700" fill="#181816">Repair the repo,</text>
+  <text class="sans" x="120" y="370" font-size="76" font-weight="700" fill="#181816">not write a report.</text>
+  <text class="sans" x="120" y="488" font-size="30" fill="#51514d">A repo you have not touched in months runs the harness you built for the tooling</text>
+  <text class="sans" x="120" y="532" font-size="30" fill="#51514d">that existed then. The gap is rarely in the code — it is in the setup around it.</text>
+  <text class="sans" x="120" y="646" font-size="22" font-weight="700" letter-spacing="1.6" fill="#42647a">THE MECHANISM</text>
+  <line x1="120" y1="672" x2="1480" y2="672" stroke="#181816" stroke-width="3"/>
+  <text class="mono" x="120" y="740" font-size="26" font-weight="700" fill="#42647a">1</text>
+  <text class="mono" x="176" y="740" font-size="27" font-weight="700" fill="#181816">DETECT</text>
+  <text class="sans" x="640" y="740" font-size="26" fill="#51514d">Read the current state first: memory files, settings, hooks, gates,</text>
+  <text class="sans" x="640" y="776" font-size="26" fill="#51514d">toolchain pins, CI, branch and review state. Gather, do not judge.</text>
+  <line x1="120" y1="818" x2="1480" y2="818" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="856" font-size="26" font-weight="700" fill="#42647a">2</text>
+  <text class="mono" x="176" y="856" font-size="27" font-weight="700" fill="#181816">ASSESS</text>
+  <text class="sans" x="640" y="856" font-size="26" fill="#51514d">Diff against the ten dimensions of a well-formed agentic repo.</text>
+  <text class="sans" x="640" y="892" font-size="26" fill="#51514d">Score present, partial, or absent — repair nothing yet.</text>
+  <line x1="120" y1="934" x2="1480" y2="934" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="972" font-size="26" font-weight="700" fill="#42647a">3</text>
+  <text class="mono" x="176" y="972" font-size="27" font-weight="700" fill="#181816">DELTA</text>
+  <text class="sans" x="640" y="972" font-size="26" fill="#51514d">Ask what shipped since this repo was last touched. Read the</text>
+  <text class="sans" x="640" y="1008" font-size="26" fill="#51514d">changelog: your training data is the stale source here.</text>
+  <line x1="120" y1="1050" x2="1480" y2="1050" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1088" font-size="26" font-weight="700" fill="#42647a">4</text>
+  <text class="mono" x="176" y="1088" font-size="27" font-weight="700" fill="#181816">REPAIR</text>
+  <text class="sans" x="640" y="1088" font-size="26" fill="#51514d">Order by what costs turns in THIS repo, not by dimension number.</text>
+  <text class="sans" x="640" y="1124" font-size="26" fill="#51514d">Small separately-reviewable changes, never one large commit.</text>
+  <line x1="120" y1="1166" x2="1480" y2="1166" stroke="#eae9e4" stroke-width="2"/>
+  <text class="mono" x="120" y="1204" font-size="26" font-weight="700" fill="#42647a">5</text>
+  <text class="mono" x="176" y="1204" font-size="27" font-weight="700" fill="#181816">VERIFY</text>
+  <text class="sans" x="640" y="1204" font-size="26" fill="#51514d">Fire every hook, run every gate, confirm the allowlist silences</text>
+  <text class="sans" x="640" y="1240" font-size="26" fill="#51514d">what it was added for. Installed-but-unexercised is not done.</text>
+  <rect x="120" y="1648" width="1360" height="148" fill="#eef2f4"/>
+  <rect x="120" y="1648" width="5" height="148" fill="#42647a"/>
+  <text class="sans" x="160" y="1696" font-size="25" fill="#334551">Do not hand-roll what already ships. Run the memory-file trimmer</text>
+  <text class="sans" x="160" y="1734" font-size="25" fill="#334551">and the permission-prompt analyser first, then cover what they</text>
+  <text class="sans" x="160" y="1772" font-size="25" fill="#334551">miss. Reinventing them is how this skill wastes an hour.</text>
+  <line x1="120" y1="1876" x2="1480" y2="1876" stroke="#d1d0ca" stroke-width="2"/>
+  <text class="sans" x="120" y="1926" font-size="24" fill="#51514d">Claude Code skill</text>
+  <text class="mono" x="1480" y="1926" font-size="24" fill="#42647a" text-anchor="end">harness@Skills</text>
+</svg>
